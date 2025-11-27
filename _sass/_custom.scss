@@ -1,0 +1,17 @@
+/* —— Custom styles for Benjamin's site —— */
+
+/* Ejemplo: hacer el avatar rectangular y más grande */
+.author__avatar img {
+  border-radius: 0;     /* quita el círculo */
+  max-width: 220px;
+  height: auto;
+}
+
+/* Right-align the main nav items */
+.masthead__menu {
+  margin-left: auto;     /* Push nav to the right */
+}
+
+.masthead__menu ul {
+  justify-content: flex-end;  /* Extra safety for flex layouts */
+}
