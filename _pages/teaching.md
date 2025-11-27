@@ -7,6 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div style="margin-top: 2rem;"></div>
+
+ey Ey Ey. A Darle para adelante
