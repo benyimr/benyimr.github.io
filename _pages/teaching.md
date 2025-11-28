@@ -9,13 +9,16 @@ author_profile: false
 
 <div style="margin-top: 2rem;"></div>
 
+<div class="justify">
 Teaching is one of the most rewarding parts of my academic work. My approach emphasizes conceptual clarity and careful reasoning, while cultivating a learning environment that fosters curiosity, inquiry, and active engagement. Here you can find materials from some of the courses and workshops I have taught at MIT and other institutions.
+</div>
 
 <div style="margin-top: 2.5rem;"></div>
 
 # MIT
 ## Teaching Assistant
 
+<div class="teaching-indent">
 <details>
   <summary><strong>Quantitative Research Methods IV: Advanced Topics (17.806)</strong></summary>
 
@@ -33,7 +36,10 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
   <summary><strong>Causal Inference (6.S059/15.C08/17.C08)</strong></summary>
 
@@ -52,15 +58,13 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <a href="https://drive.google.com/drive/folders/1uCnzdo5aS7pynd38dbDzZ5euFMSpdHY_?usp=drive_link">[Google Colabs]</a>
   </div>
 
-
-
-
 </details>
-
+</div>
 
 
 ## Workshop Instructor/Teaching Fellow
 
+<div class="teaching-indent">
 <details>
   <summary><strong> Writing Clean and Efficient Code</strong></summary>
 
@@ -76,7 +80,10 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
   <summary><strong> Experiential Ethics</strong></summary>
 
@@ -95,7 +102,10 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
   <summary><strong> The Causal Inference Toolbox</strong></summary>
 
@@ -112,6 +122,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   </div>
 
 </details>
+</div>
 
 
 <div style="margin-top: 4.0rem;"></div>
@@ -119,98 +130,107 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
 # Other Institutions
 
 ## Instructor
+
+<div class="teaching-indent">
 <details>
-  <summary><strong> CURSO A</strong></summary>
+  <summary><strong> Research Design (UCH) </strong></summary>
 
-  <div style="margin-top: 0.9rem;"></div>
-
-  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2023</p>
-  <p style="margin: 0.15rem 0;"><strong>Instructors:</strong> F. Daniel Hidalgo &amp; Teppei Yamamoto</p>
-  <p style="margin: 0.15rem 0;"><strong>Level:</strong> Doctoral</p>
-  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Covers advanced statistical tools that are useful for empirical research in political science and public policy, including web scraping, machine learning, text analysis, survival models, and modern causal inference techniques (causal ML, methods for longitudinal data, sensitivity analysis, and mediation analysis).</p>
+  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2015, Fall 2016.</p>
+  <p style="margin: 0.15rem 0;"><strong>Department:</strong> Public Administration (UG)</p>
+  <p style="margin: 0.15rem 0;"><strong>University:</strong> Universidad de Chile</p>
+  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Introduction to Research Design for Public Administrators. The course is divided into two sections: the first outlines foundational principles of social inquiry, while the second familiarizes students with key research traditions and commonly used methodological tools. Emphasis is placed on hands-on practice and applied examples. </p>
 
   <div style="text-align: center; margin-top: 0.5rem;">
-    <a href="LINK_TO_SYLLABUS.pdf">[Syllabus]</a>
+  <a href="{{ base_path }}/files/syl_MET201.pdf">[Syllabus 2015]</a>
     &nbsp;&nbsp;
-    <a href="LINK_TO_RECITATION_SLIDES.pdf">[Recitation Slides]</a>
+  <a href="{{ base_path }}/files/syl_AP01033.pdf">[Syllabus 2016]</a>
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
-  <summary><strong> CURSO B</strong></summary>
+  <summary><strong> Qualitative Methods (UCH) </strong></summary>
 
-  <div style="margin-top: 0.9rem;"></div>
-
-  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2023</p>
-  <p style="margin: 0.15rem 0;"><strong>Instructors:</strong> F. Daniel Hidalgo &amp; Teppei Yamamoto</p>
-  <p style="margin: 0.15rem 0;"><strong>Level:</strong> Doctoral</p>
-  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Covers advanced statistical tools that are useful for empirical research in political science and public policy, including web scraping, machine learning, text analysis, survival models, and modern causal inference techniques (causal ML, methods for longitudinal data, sensitivity analysis, and mediation analysis).</p>
+  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2016.</p>
+  <p style="margin: 0.15rem 0;"><strong>Department:</strong> Public Administration (UG)</p>
+  <p style="margin: 0.15rem 0;"><strong>University:</strong> Universidad de Chile</p>
+  <p style="margin: 0.35rem 0;"><strong>Description:</strong> This is the second course in the methodological sequence for public administrators. The first part introduces the principles of qualitative and comparative research. The second part covers canonical research designs and key techniques such as document analysis, observation, and interviews. </p>
 
   <div style="text-align: center; margin-top: 0.5rem;">
-    <a href="LINK_TO_SYLLABUS.pdf">[Syllabus]</a>
-    &nbsp;&nbsp;
-    <a href="LINK_TO_RECITATION_SLIDES.pdf">[Recitation Slides]</a>
+  <a href="{{ base_path }}/files/syl_AP01043.pdf">[Syllabus]</a>
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
-  <summary><strong> CURSO C</strong></summary>
+  <summary><strong> Introduction to Statistics for the Social Sciences (UAH) </strong></summary>
 
   <div style="margin-top: 0.9rem;"></div>
 
-  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2023</p>
-  <p style="margin: 0.15rem 0;"><strong>Instructors:</strong> F. Daniel Hidalgo &amp; Teppei Yamamoto</p>
-  <p style="margin: 0.15rem 0;"><strong>Level:</strong> Doctoral</p>
-  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Covers advanced statistical tools that are useful for empirical research in political science and public policy, including web scraping, machine learning, text analysis, survival models, and modern causal inference techniques (causal ML, methods for longitudinal data, sensitivity analysis, and mediation analysis).</p>
+  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Fall 2019, Spring 2020.</p>
+  <p style="margin: 0.15rem 0;"><strong>Department:</strong> Anthropology (UG)</p>
+  <p style="margin: 0.15rem 0;"><strong>University:</strong> Universidad Alberto Hurtado </p>
+  <p style="margin: 0.35rem 0;"><strong>Description:</strong> First course in the quantitative methods sequence for anthropologists. This course introduces students to quantitative reasoning and data analysis with applications in the social sciences. The material is organized into three modules: the logic of quantitative research and measurement, the fundamentals of probability, and key tools for describing and summarizing data (descriptive statistics). </p>
 
   <div style="text-align: center; margin-top: 0.5rem;">
-    <a href="LINK_TO_SYLLABUS.pdf">[Syllabus]</a>
+  <a href="{{ base_path }}/files/syl_5173_2019.pdf">[Syllabus 2019]</a>
     &nbsp;&nbsp;
-    <a href="LINK_TO_RECITATION_SLIDES.pdf">[Recitation Slides]</a>
+  <a href="{{ base_path }}/files/syl_5173_2020.pdf">[Syllabus 2020]</a>
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
-  <summary><strong> CURSO D</strong></summary>
+  <summary><strong> Quantitative Methods I (UAH) </strong></summary>
 
   <div style="margin-top: 0.9rem;"></div>
 
-  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2023</p>
-  <p style="margin: 0.15rem 0;"><strong>Instructors:</strong> F. Daniel Hidalgo &amp; Teppei Yamamoto</p>
-  <p style="margin: 0.15rem 0;"><strong>Level:</strong> Doctoral</p>
-  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Covers advanced statistical tools that are useful for empirical research in political science and public policy, including web scraping, machine learning, text analysis, survival models, and modern causal inference techniques (causal ML, methods for longitudinal data, sensitivity analysis, and mediation analysis).</p>
+  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2020.</p>
+  <p style="margin: 0.15rem 0;"><strong>Department:</strong> Anthropology (UG)</p>
+  <p style="margin: 0.15rem 0;"><strong>University:</strong> Universidad Alberto Hurtado </p>
+  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Second course in the quantitative methods sequence for anthropologists. This course introduces students to inferential statistics. The material is organized into two modules: probability, and statistical inference, including point estimation, confidence intervals, and hypothesis testing. </p>
 
   <div style="text-align: center; margin-top: 0.5rem;">
-    <a href="LINK_TO_SYLLABUS.pdf">[Syllabus]</a>
-    &nbsp;&nbsp;
-    <a href="LINK_TO_RECITATION_SLIDES.pdf">[Recitation Slides]</a>
+  <a href="{{ base_path }}/files/syl_1872.pdf">[Syllabus]</a>
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
-  <summary><strong> CURSO E</strong></summary>
+  <summary><strong> Quantitative Methods II (UAH) </strong></summary>
 
   <div style="margin-top: 0.9rem;"></div>
 
-  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2023</p>
-  <p style="margin: 0.15rem 0;"><strong>Instructors:</strong> F. Daniel Hidalgo &amp; Teppei Yamamoto</p>
-  <p style="margin: 0.15rem 0;"><strong>Level:</strong> Doctoral</p>
-  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Covers advanced statistical tools that are useful for empirical research in political science and public policy, including web scraping, machine learning, text analysis, survival models, and modern causal inference techniques (causal ML, methods for longitudinal data, sensitivity analysis, and mediation analysis).</p>
+  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2020.</p>
+  <p style="margin: 0.15rem 0;"><strong>Department:</strong> Anthropology (UG)</p>
+  <p style="margin: 0.15rem 0;"><strong>University:</strong> Universidad Alberto Hurtado </p>
+  <p style="margin: 0.35rem 0;"><strong>Description:</strong> Third course in the quantitative methods sequence for anthropologists. This course introduces students to regression analysis. The course begins with a review of material covered in Quantitative Methods I and introduces core concepts such as the Central Limit Theorem and the Law of Large Numbers. It then turns to linear regression analysis, examining its properties, underlying assumptions, and associated diagnostic tests. Throughout the course, emphasis is placed on empirical applications and the careful interpretation of results. </p>
 
   <div style="text-align: center; margin-top: 0.5rem;">
-    <a href="LINK_TO_SYLLABUS.pdf">[Syllabus]</a>
-    &nbsp;&nbsp;
-    <a href="LINK_TO_RECITATION_SLIDES.pdf">[Recitation Slides]</a>
+  <a href="{{ base_path }}/files/syl_1873.pdf">[Syllabus]</a>
+      &nbsp;&nbsp;
+  <a href="{{ base_path }}/files/syl_3149.pdf">[Syllabus Political Science]</a>
   </div>
 
 </details>
+</div>
 
 
 ## Workshop Instructor
+
+<div class="teaching-indent">
 <details>
   <summary><strong> Fixed Effects and Random Effects Modeling </strong></summary>
 
@@ -229,7 +249,10 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   </div>
 
 </details>
+</div>
 
+
+<div class="teaching-indent">
 <details>
   <summary><strong> Summer School in Mixed Methods (PUC)</strong></summary>
 
@@ -244,9 +267,10 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <div style="text-align: center; margin-top: 0.5rem;">
     <a href="https://github.com/benyimr/Intro_a_R">[Intro to R]</a>
     &nbsp;&nbsp;
-    <a href="LINK_TO_SYLLABUS.pdf">[Intro to Stata]</a>
+    <a href="https://github.com/benyimr/Stata_Basico">[Intro to Stata]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/benyimr/Redes_Sociales_R">[Social Networks]</a>
   </div>
 
 </details>
+</div>
