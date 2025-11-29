@@ -13,7 +13,7 @@ redirect_from:
 
 You can view my CV below, or download a copy <a href="{{ base_path }}/files/cv/Academic_CV__BMR.pdf" download>here</a>.
 
-<div style="margin-top: 4rem;"></div>
+<div style="margin-top: 3rem;"></div>
 
 <object 
   data="{{ base_path }}/files/cv/Academic_CV__BMR.pdf#view=FitH&navpanes=0&toolbar=0&scrollbar=1" 

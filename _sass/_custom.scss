@@ -223,10 +223,10 @@
 /* ----------------------------------------------------
    WORKING PAPERS
    Same structure as normal papers, but with a rotating
-   arrow (➤) before the title.
+   arrow (➤) before the title, controlled by checkbox.
 ---------------------------------------------------- */
 
-/* Icon in front of the title */
+/* Flecha delante del título del working paper */
 .research-working .research-paper-title::before {
   content: "➤ ";
   font-size: 1rem;
@@ -236,8 +236,10 @@
   transition: transform 0.25s ease;
 }
 
-/* Rotate arrow when the Abstract is visible */
-.research-working .research-paper-header:has(.abstract-toggle-checkbox:checked)
+/* Rotar flecha cuando el checkbox está marcado
+   (es decir, cuando el Abstract está visible) */
+.research-working .abstract-toggle-checkbox:checked
+  ~ .research-paper-citation
   .research-paper-title::before {
   transform: rotate(90deg);
 }
