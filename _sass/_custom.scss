@@ -1,21 +1,28 @@
-/* —— Custom styles for Benjamin's site —— */
+/* ====================================================
+   Custom styles for Benjamin's site
+   (built on top of Minimal Mistakes / AcademicPages)
+==================================================== */
 
-/* Make avatar rectangular and larger */
-/* Expand the image itself */
+/* ----------------------------------------------------
+   Author avatar (shape + size)
+---------------------------------------------------- */
+
 .author__avatar img {
   border-radius: 0;
-  width: 100%;       /* must match container width */
+  width: 100%;            /* must match container width */
   max-width: 380px;
-  height: 430px !important;      /* adjust as needed */
+  height: 430px !important;
   object-fit: cover;
 }
 
-/* ----- Masthead: left (name + theme) / right (nav) ----- */
+/* ----------------------------------------------------
+   Masthead: left (name + theme) / right (nav)
+---------------------------------------------------- */
 
 .masthead__inner-wrap {
   display: flex;
   align-items: center;
-  justify-content: center;   /* center the bar */
+  justify-content: center;          /* center the bar */
 }
 
 .masthead__bar {
@@ -29,7 +36,7 @@
 .masthead__left {
   display: flex;
   align-items: center;
-  gap: 0.75rem;   /* space between name and icon */
+  gap: 0.75rem;                     /* space between name and icon */
 }
 
 .site-title {
@@ -61,7 +68,7 @@
   text-decoration: none;
 }
 
-/* Slightly adjust on very small screens */
+/* Small screens: stack name/nav */
 @media (max-width: 600px) {
   .masthead__bar {
     flex-direction: column;
@@ -75,25 +82,32 @@
   }
 }
 
+/* ----------------------------------------------------
+   Headings and general text utilities
+---------------------------------------------------- */
+
 /* Remove automatic underline from h2 (## headers) */
 .page__content h2 {
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
 
-/* Keep underline only for top-level section headers (MIT, Other Institutions) */
+/* Keep underline only for top-level section headers (MIT, Other Institutions, etc.) */
 .page__content h1 {
   border-bottom: 1px solid var(--global-border-color);
   padding-bottom: 0.4rem;
   margin-bottom: 1.2rem;
 }
 
-/* Justify text */
+/* Generic text justification helper */
 .justify {
   text-align: justify;
 }
 
-/* Teaching Indentation (for classes) */
+/* ----------------------------------------------------
+   Teaching section — indentation + text justification
+---------------------------------------------------- */
+
 .teaching-indent {
   margin-left: 1.25rem;
   margin-bottom: 0.50rem;
@@ -104,8 +118,19 @@
   text-align: justify;
 }
 
+/* Custom link color for teaching section links (buttons) */
+.teaching-links a {
+  color: #0C6B9A !important;
+  text-decoration: none;
+}
+
+.teaching-links a:hover {
+  color: darken(#0C6B9A, 10%) !important;
+  text-decoration: underline;
+}
+
 /* ----------------------------------------------------
-   Research — indentation + text justification
+   Research section — indentation + text justification
 ---------------------------------------------------- */
 
 .research-indent {
@@ -118,7 +143,7 @@
 }
 
 /* ----------------------------------------------------
-   SPECIAL ICON for JMP ONLY
+   JMP highlight — special icon before title
    Symbol: U+2726 (✦), static (no rotation)
 ---------------------------------------------------- */
 
@@ -221,12 +246,12 @@
 }
 
 /* ----------------------------------------------------
-   WORKING PAPERS
+   Working papers
    Same structure as normal papers, but with a rotating
-   arrow (➤) before the title, controlled by checkbox.
+   arrow (➤) before the title, controlled by checkbox
 ---------------------------------------------------- */
 
-/* Flecha delante del título del working paper */
+/* Arrow in front of the working paper title */
 .research-working .research-paper-title::before {
   content: "➤ ";
   font-size: 1rem;
@@ -236,73 +261,69 @@
   transition: transform 0.25s ease;
 }
 
-/* Rotar flecha cuando el checkbox está marcado
-   (es decir, cuando el Abstract está visible) */
+/* Rotate arrow when the checkbox is checked
+   (i.e., when the abstract is visible) */
 .research-working .abstract-toggle-checkbox:checked
   ~ .research-paper-citation
   .research-paper-title::before {
   transform: rotate(90deg);
 }
 
-/* --------------------------------------------
-   Option 1: Citation block (texto) + button block
---------------------------------------------- */
+/* ----------------------------------------------------
+   Research citation + button blocks
+---------------------------------------------------- */
 
-/* Bloque para la cita completa */
+/* Block for the full citation text */
 .research-paper-citation {
-  margin-bottom: 0.35rem;      /* pequeño espacio antes de los botones */
+  margin-bottom: 0.35rem;      /* small space before buttons */
   line-height: 1.45;
   text-align: justify;
 }
 
-/* Bloque para los botones */
+/* Block for buttons ([Abstract], [Article], [Code], etc.) */
 .research-paper-buttons {
   display: flex;
   gap: 0.75rem;
-  flex-wrap: wrap;             /* que no desborde en móviles */
+  flex-wrap: wrap;             /* prevent overflow on mobile */
   margin-bottom: 0.5rem;
 }
 
-/* Opcional: que [Abstract] + [Article] + [Slides] se vean bien alineados */
+/* Nice alignment for [Abstract] + [Article] + [Slides], etc. */
 .research-paper-buttons .research-link,
 .research-paper-buttons .abstract-toggle-label {
   font-size: 0.95rem;
 }
 
 /* ----------------------------------------------------
-   Widen main content area on large screens
+   Global: widen main content area on large screens
    (affects About, Research, Teaching, CV, etc.)
 ---------------------------------------------------- */
 
 @media (min-width: 1280px) {
   #main {
-    max-width: 1440px;  /* New size (modify if necessary) */
+    max-width: 1440px;  /* adjust if you want more/less width */
   }
 }
 
-/* --------------------------------------------
-   Coauthor links — no underline
---------------------------------------------- */
-.coauthor-link {
-  text-decoration: none !important;
-  border-bottom: none !important;   /* Remove underlined */
-}
+/* ----------------------------------------------------
+   Coauthor links — no underline + muted color
+---------------------------------------------------- */
 
 .coauthor-link {
   text-decoration: none !important;
   border-bottom: none !important;
-  color: #555;   /* New Color */
+  color: #555;   /* muted text color */
 }
 
 .coauthor-link:hover {
-  color: var(--global-link-color-hover); /* Keep hover */
+  color: var(--global-link-color-hover); /* keep normal hover behavior */
 }
 
 /* ----------------------------------------------------
-   Research Buttons — Blue Styling (Abstract, Article, Code, etc.)
+   Research buttons — blue styling (Abstract, Article, Code, etc.)
 ---------------------------------------------------- */
 
-/* Color for all buttons: [Abstract], [Article], [Code], etc. */
+/* Color for all research buttons: [Abstract], [Article], [Code], etc. */
 .research-link,
 .abstract-toggle-label {
   color: #4F8CC9 !important;          /* main blue */
@@ -317,45 +338,43 @@
   text-decoration: none;
 }
 
-/* ---------------------------------------------
-   Home layout (about page) — 4 columnas
-   [vacía] [texto] [foto] [vacía]
----------------------------------------------- */
+/* ----------------------------------------------------
+   Home layout (About page) — 4 columns:
+   [empty] [text] [photo] [empty]
+---------------------------------------------------- */
 
-/* El body recibe automáticamente la clase layout--home
-   porque el layout se llama "home" */
+/* The body automatically gets layout--home because the layout is "home" */
 .layout--home #main {
-  max-width: 1200px;   /* más ancho que el default */
+  max-width: 1200px;   /* slightly wider than default for the home page */
   margin: 0 auto;
   padding-top: 1.5rem;
 }
 
-/* Grilla principal */
+/* Main grid: 4 columns */
 .layout--home .home-grid {
   display: grid;
-  grid-template-columns: 1fr 2.2fr 1.3fr 1fr; /* vacía, texto, foto, vacía */
+  grid-template-columns: 1fr 2.2fr 1.3fr 1fr; /* empty, text, photo, empty */
   gap: 2rem;
   align-items: flex-start;
 }
 
-/* Las columnas vacías no necesitan estilos extra,
-   pero las definimos por claridad */
+/* Empty columns (kept for clarity) */
 .layout--home .home-grid__empty {
   /* intentionally blank */
 }
 
-/* Quitar el max-width "estrecho" de la página solo en la home */
+/* Remove narrow max-width constraints for the text block only on home */
 .layout--home .home-grid__text .page__inner-wrap {
   max-width: none;
   margin: 0;
 }
 
-/* Ajuste suave del bloque de perfil */
+/* Allow the profile block (sidebar content) to adapt to the allocated space */
 .layout--home .home-grid__photo {
-  /* Deja que el author-profile se adapte al espacio */
+  /* intentionally blank; inherits Minimal Mistakes styles */
 }
 
-/* Responsive: en pantallas pequeñas apilamos todo */
+/* Responsive: on small screens, stack everything as a single column */
 @media (max-width: 900px) {
   .layout--home .home-grid {
     grid-template-columns: 1fr;
