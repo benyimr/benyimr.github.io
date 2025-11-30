@@ -79,8 +79,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-buttons">
     <label for="abs-paper-2" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link">[Article]</a>
-    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Code]</span>
-      <!-- <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -113,7 +112,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-buttons">
     <label for="abs-paper-1" class="abstract-toggle-label">[Abstract]</label>
 <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Article]</a>
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -390,7 +389,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <a href="https://www.cis.es/en/w/redes-sociales-teoria-metodos-y-aplicaciones-en-america-latina" class="research-link">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
   </div>
 
 
@@ -428,7 +427,7 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
     <a href="https://www.fondodeculturaeconomica.com/Ficha/9789562892025/F" class="research-link">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a> -->
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -461,7 +460,7 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
     <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
