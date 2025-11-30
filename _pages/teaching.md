@@ -30,7 +30,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> Covers advanced statistical tools that are useful for empirical research in political science and public policy, including web scraping, machine learning, text analysis, survival models, and modern causal inference techniques (causal ML, methods for longitudinal data, sensitivity analysis, and mediation analysis).</p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_quant4.pdf">[Syllabus]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_quant4.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/benyimr/Quant_IV_Slides">[Recitation Slides]</a>
   </div>
@@ -51,7 +51,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> Provides an accessible overview of modern quantitative methods for causal inference. Covers topics including potential outcomes, causal graphs, randomized controlled trials, observational studies, instrumental variable estimation, and a contrast with machine learning techniques. Makes heavy use of  real-data examples in Python or R from fields such as economics, political science, business, and public policy.</p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_c08.pdf">[Syllabus]</a>
+      <a href="{{ base_path }}/files/syllabi/syl_c08.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/benyimr/Common_Ground_Causal_Inference_Materials">[Recitation Slides]</a>
     &nbsp;&nbsp;
@@ -96,8 +96,8 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
     <a href="https://elo.mit.edu/experiential-ethics/" target="_blank">Experiential Ethics</a> is a collaborative, discussion-based summer course where students gain theoretical and practical tools while reflecting critically on their personal, professional, and political roles. The class can be taken by itself or alongside popular experiential learning programs and internships, such as UROP,  MISTI, or PKG opportunities. In small-group weekly sessions, students engage in conversations about their own values as well as the moral, social, and political dimensions of their summer experiences. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_ee2024.pdf">[Syllabus]</a>
-    &nbsp;&nbsp;
+    <a href="{{ base_path }}/files/syllabi/syl_ee2024.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
+        &nbsp;&nbsp;
     <a href="https://github.com/benyimr/Experiential_Ethics">[Slides]</a>
   </div>
 
@@ -141,14 +141,13 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> Introduction to Research Design for Public Administrators. The course is divided into two sections: the first outlines foundational principles of social inquiry, while the second familiarizes students with key research traditions and commonly used methodological tools. Emphasis is placed on hands-on practice and applied examples. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_MET201.pdf">[Syllabus 2015]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_MET201.pdf" target="_blank" rel="noopener noreferrer">[Syllabus 2015]</a>
     &nbsp;&nbsp;
-    <a href="{{ base_path }}/files/syllabi/syl_AP01033.pdf">[Syllabus 2016]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_AP01033.pdf" target="_blank" rel="noopener noreferrer">[Syllabus 2016]</a>
   </div>
 
 </details>
 </div>
-
 
 <div class="teaching-indent">
 <details>
@@ -160,7 +159,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> This is the second course in the methodological sequence for public administrators. The first part introduces the principles of qualitative and comparative research. The second part covers canonical research designs and key techniques such as document analysis, observation, and interviews. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_AP01043.pdf">[Syllabus]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_AP01043.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
   </div>
 
 </details>
@@ -179,9 +178,9 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> First course in the quantitative methods sequence for anthropologists. This course introduces students to quantitative reasoning and data analysis with applications in the social sciences. The material is organized into three modules: the logic of quantitative research and measurement, the fundamentals of probability, and key tools for describing and summarizing data (descriptive statistics). </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_5173_2019.pdf">[Syllabus 2019]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_5173_2019.pdf" target="_blank" rel="noopener noreferrer">[Syllabus 2019]</a>
     &nbsp;&nbsp;
-    <a href="{{ base_path }}/files/syllabi/syl_5173_2020.pdf">[Syllabus 2020]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_5173_2020.pdf" target="_blank" rel="noopener noreferrer">[Syllabus 2020]</a>
   </div>
 
 </details>
@@ -200,7 +199,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> Second course in the quantitative methods sequence for anthropologists. This course introduces students to inferential statistics. The material is organized into two modules: probability, and statistical inference, including point estimation, confidence intervals, and hypothesis testing. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_1872.pdf">[Syllabus]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_1872.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
   </div>
 
 </details>
@@ -219,9 +218,9 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> Third course in the quantitative methods sequence for anthropologists. This course introduces students to regression analysis. The course begins with a review of material covered in Quantitative Methods I and introduces core concepts such as the Central Limit Theorem and the Law of Large Numbers. It then turns to linear regression analysis, examining its properties, underlying assumptions, and associated diagnostic tests. Throughout the course, emphasis is placed on empirical applications and the careful interpretation of results. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_1873.pdf">[Syllabus]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_1873.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
-    <a href="{{ base_path }}/files/syllabi/syl_3149.pdf">[Syllabus Political Science]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_3149.pdf" target="_blank" rel="noopener noreferrer">[Syllabus Political Science]</a>
   </div>
 
 </details>
@@ -243,7 +242,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
     This workshop offers an accessible introduction to longitudinal data analysis using fixed-effects and random-effects models. I emphasize conceptual clarity and theoretical intuition, with mathematical rigor deferred to the appendix. The session also covers the key empirical decisions researchers face when working with panel data—when to use each model, how to interpret estimates, and the assumptions underlying them. This one-day workshop includes hands-on exercises in R and is taught in Spanish. Participants are expected to have prior experience with R and an intermediate understanding of linear regression. </p>
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ base_path }}/files/syllabi/syl_elsoc.pdf">[Syllabus]</a>
+    <a href="{{ base_path }}/files/syllabi/syl_elsoc.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/benyimr/Fixed_and_Random_Effects_Models">[Materials]</a>
   </div>

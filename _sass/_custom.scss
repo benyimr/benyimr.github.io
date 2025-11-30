@@ -104,6 +104,14 @@
   text-align: justify;
 }
 
+.link-disabled {
+  color: #999 !important;      /* light gray */
+  text-decoration: none !important;
+  cursor: default;
+  pointer-events: none;        /* disables clicks */
+  font-style: italic;
+}
+
 /* ----------------------------------------------------
    Teaching section — indentation + text justification
 ---------------------------------------------------- */
@@ -120,12 +128,12 @@
 
 /* Custom link color for teaching section links (buttons) */
 .teaching-links a {
-  color: #0C6B9A !important;
+  color: #4F8CC9 !important;
   text-decoration: none;
 }
 
 .teaching-links a:hover {
-  color: darken(#0C6B9A, 10%) !important;
+  color: #2F6EA6 !important;
   text-decoration: underline;
 }
 
@@ -312,7 +320,7 @@
 .coauthor-link {
   text-decoration: none !important;
   border-bottom: none !important;
-  color: #555;   /* muted text color */
+  color: #3E6A71;   /* muted text color */
 }
 
 .coauthor-link:hover {
@@ -327,7 +335,7 @@
 .research-link,
 .abstract-toggle-label {
   color: #4F8CC9 !important;          /* main blue */
-  text-decoration: underline;         /* consistent with your style */
+  text-decoration: none;         /* consistent with your style */
   cursor: pointer;
 }
 

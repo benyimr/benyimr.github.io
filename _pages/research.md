@@ -78,8 +78,9 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-paper-2" class="abstract-toggle-label">[Abstract]</label>
-<a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link">[Article]</a>
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
+    <a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link">[Article]</a>
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Code]</span>
+      <!-- <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
   </div>
 
   <!-- ABSTRACT -->
@@ -149,10 +150,9 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-wp-3" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
-      <!-- 
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
-           -->
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Manuscript]</span>
+<!-- <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
+      <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
   </div>
 
   <!-- ABSTRACT -->
@@ -183,10 +183,9 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-wp-2" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
-          <!-- 
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
-           -->
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Manuscript]</span>
+<!-- <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
+      <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
   </div>
 
   <!-- ABSTRACT -->
@@ -216,10 +215,9 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-wp-1" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
-      <!-- 
-    <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
-           -->
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Manuscript]</span>
+<!-- <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
+      <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
   </div>
 
   <!-- ABSTRACT -->
@@ -390,9 +388,12 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-buttons">
     <label for="abs-chapter-3" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://www.cis.es/en/w/redes-sociales-teoria-metodos-y-aplicaciones-en-america-latina" class="research-link">[Book]</a>
-    <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
+      <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
     <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
   </div>
+
+
 
   <!-- ABSTRACT -->
   <div class="research-paper-abstract">
@@ -425,7 +426,8 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
   <div class="research-paper-buttons">
     <label for="abs-chapter-2" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://www.fondodeculturaeconomica.com/Ficha/9789562892025/F" class="research-link">[Book]</a>
-    <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
+      <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a> -->
     <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
   </div>
 
@@ -457,7 +459,8 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
   <div class="research-paper-buttons">
     <label for="abs-chapter-1" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Book]</a>
-    <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>
+    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
+      <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
     <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a>
   </div>
 

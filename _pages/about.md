@@ -18,6 +18,6 @@ Before joining MIT, I earned a BA and MA in Political Science from the Pontifici
 
 You can find my CV <a href="{{ '/files/cv/Academic_CV__BMR.pdf' | relative_url }}" target="_blank"> here</a>.
 
-If you’d like to discuss my research, academic work, or the PhD path, you can reach me at [benja_mr@mit.edu](mailto:benja_mr@mit.edu).
+If you’d like to discuss my research, academic work, or the PhD path, you can reach me at <a href="mailto:benja_mr@mit.edu" target="_blank" rel="noopener noreferrer">benja_mr@mit.edu</a>.
 
 </div>
