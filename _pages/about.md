@@ -12,7 +12,7 @@ redirect_from:
 
 <div class="justify" markdown="1">
 
-I am a Ph.D. candidate in the [Department of Political Science](https://polisci.mit.edu/) at the Massachusetts Institute of Technology and a Graduate Research Fellow at the [MIT Governance Lab](https://mitgovlab.org/). Esto es un experimento, es simplemente texto random para probar si logramos justificar el texto en el html del about de mi website. Si no funciona, buscaré otras opciones
+I am a Ph.D. candidate in the [Department of Political Science](https://polisci.mit.edu/) at the Massachusetts Institute of Technology and a Graduate Research Fellow at the [MIT Governance Lab](https://mitgovlab.org/). I study comparative political behavior, focusing on how citizens interact with state bureaucracies and public services, with a substantive interest in crime and insecurity in Latin America.
 
 Before joining MIT, I earned a BA and MA in Political Science from the Pontificia Universidad Católica de Chile and worked as Technical Coordinator of the [Chilean Longitudinal Social Survey](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LD4BPH) at the Centre for Social Conflict and Cohesion Studies (COES).
 
