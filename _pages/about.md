@@ -18,6 +18,9 @@ I am a Ph.D. candidate in the [Department of Political Science](https://polisci.
 I study comparative political behavior, investigating how citizens experience and respond to state bureaucracies and public policies, with a substantive interest in crime and insecurity in Latin America.
 {% endcomment %}
 
+{% comment %}
+I am on the 202X-202X academic job market.
+{% endcomment %}
 
 Before joining MIT, I earned a BA and MA in Political Science from the Pontificia Universidad Católica de Chile and worked as Technical Coordinator of the [Chilean Longitudinal Social Survey](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LD4BPH) at the Centre for Social Conflict and Cohesion Studies (COES).
 
