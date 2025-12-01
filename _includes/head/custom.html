@@ -17,12 +17,26 @@
 <!-- Automatically open EXTERNAL links in a new tab -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const links = document.querySelectorAll(
-    'a[href^="http"]:not([href*="benyimr.github.io"])'
-  );
-  links.forEach(function(link) {
-    link.setAttribute("target", "_blank");
-    link.setAttribute("rel", "noopener noreferrer");
+  document.querySelectorAll("a[href]").forEach(function(link) {
+    const url = link.getAttribute("href");
+
+    // Skip anchors, mailto, tel, and relative URLs
+    if (
+      url.startsWith("#") ||
+      url.startsWith("/") ||
+      url.startsWith("mailto:") ||
+      url.startsWith("tel:")
+    ) return;
+
+    // Build absolute URL and compare hostnames
+    const linkHost = new URL(url, window.location.href).hostname;
+    const siteHost = window.location.hostname;
+
+    // Only external links open in a new tab
+    if (linkHost !== siteHost) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
   });
 });
 </script>
