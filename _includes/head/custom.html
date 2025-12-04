@@ -17,49 +17,23 @@
 <!-- Automatically open EXTERNAL links in a new tab -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // 1) FORZAR nueva pestaña para ciertos links internos (Research / Teaching)
-  const forceNewTabSelectors = [
-    ".research-link",        // [Article], [Code], [Slides], etc.
-    ".abstract-toggle-label",// [Abstract]
-    ".teaching-links a"      // links tipo syllabus, etc. en Teaching
-  ];
-
-  forceNewTabSelectors.forEach(function(selector) {
-    document.querySelectorAll(selector).forEach(function(link) {
-      // Por seguridad, evita tocar enlaces del menú superior si
-      // en algún momento comparten clases (muy improbable, pero por si acaso)
-      if (link.closest(".masthead__nav")) return;
-
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-    });
-  });
-
-  // 2) Mantener tu lógica original:
-  //    abrir en nueva pestaña SOLO links EXTERNOS restantes
   document.querySelectorAll("a[href]").forEach(function(link) {
-    // No sobreescribir links a los que ya les pusimos target antes
-    if (link.getAttribute("target")) return;
+    const href = link.getAttribute("href");
+    if (!href) return;
 
-    const url = link.getAttribute("href");
-    if (!url) return;
-
-    // Saltar anchors, mailto, tel y URLs relativas (internas)
+    // 1) No tocar anchors ni mailto/tel
     if (
-      url.startsWith("#") ||
-      url.startsWith("/") ||
-      url.startsWith("mailto:") ||
-      url.startsWith("tel:")
+      href.startsWith("#") ||
+      href.startsWith("mailto:") ||
+      href.startsWith("tel:")
     ) return;
 
-    // Comparar hostname para ver si es externo
-    const linkHost = new URL(url, window.location.href).hostname;
-    const siteHost = window.location.hostname;
+    // 2) No tocar nada del masthead (logo + menú: Research / Teaching / CV)
+    if (link.closest(".masthead")) return;
 
-    if (linkHost !== siteHost) {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-    }
+    // 3) Todo el resto se abre en nueva pestaña
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
   });
 });
 </script>
