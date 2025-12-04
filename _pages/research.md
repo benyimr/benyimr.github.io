@@ -112,7 +112,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-buttons">
     <label for="abs-paper-1" class="abstract-toggle-label">[Abstract]</label>
 <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Article]</a>
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/15NMTI" class="research-link">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -460,7 +460,7 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
     <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Book]</a>
     <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Preprint]</span>
       <!-- <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link">[Preprint]</a>-->
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link">[Code]</a>
+    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBVZBW" class="research-link">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
