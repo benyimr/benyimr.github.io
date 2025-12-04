@@ -5,35 +5,38 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon -->
+<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
+<link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- Abrir enlaces en nueva pestaña (salvo el menú superior) -->
+<!-- Automatically open EXTERNAL links in a new tab -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll("a[href]").forEach(function(link) {
-    const href = link.getAttribute("href");
-    if (!href) return;
+    const url = link.getAttribute("href");
 
-    // No tocar anchors ni mailto/tel
+    // Skip anchors, mailto, tel, and relative URLs
     if (
-      href.startsWith("#") ||
-      href.startsWith("mailto:") ||
-      href.startsWith("tel:")
+      url.startsWith("#") ||
+      url.startsWith("/") ||
+      url.startsWith("mailto:") ||
+      url.startsWith("tel:")
     ) return;
 
-    // No tocar nada en la barra superior (logo + Research / Teaching / CV)
-    if (link.closest(".masthead")) return;
+    // Build absolute URL and compare hostnames
+    const linkHost = new URL(url, window.location.href).hostname;
+    const siteHost = window.location.hostname;
 
-    // Todo el resto en nueva pestaña
-    link.setAttribute("target", "_blank");
-    link.setAttribute("rel", "noopener noreferrer");
+    // Only external links open in a new tab
+    if (linkHost !== siteHost) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
   });
 });
 </script>

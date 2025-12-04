@@ -12,55 +12,8 @@
 <!-- Support for Mermaid -->
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true, theme: 'default' });
-    await mermaid.run({ querySelector: 'code.language-mermaid' });
-</script>
-
-<!-- Force specific links to open in a new tab -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-
-  /**
-   * Fuerza que todos los links que coincidan con `selector`
-   * se abran SIEMPRE en una nueva pestaña, salvo:
-   *   - anchors (#...)
-   *   - mailto:
-   *   - tel:
-   */
-  function forceNewTab(selector) {
-    document.querySelectorAll(selector).forEach(function(link) {
-      const href = link.getAttribute("href");
-      if (!href) return;
-
-      // No intervenir anchors internos ni mailto/tel
-      if (href.startsWith("#")) return;
-      if (href.startsWith("mailto:")) return;
-      if (href.startsWith("tel:")) return;
-
-      // Evitamos, por seguridad, afectar el masthead si accidentalmente coincide
-      if (link.closest(".masthead")) return;
-
-      // Interceptar el click y abrir en nueva pestaña
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-        window.open(href, "_blank", "noopener");
-      });
-    });
-  }
-
-  // 1) Botones de Research: [Article], [Code], [Book], [Document], etc.
-  forceNewTab(".research-link");
-
-  // 2) Links de Teaching dentro de los bloques .teaching-links
-  forceNewTab(".teaching-links a");
-
-  // 3) Cualquier link dentro del texto principal de la página (About, Research, Teaching, etc.)
-  forceNewTab(".page__content a");
-
-  // 4) Iconos de la barra lateral (Google Scholar, ORCID, GitHub, etc.)
-  forceNewTab(".author__urls a");
-
-});
+    mermaid.initialize({startOnLoad:true, theme:'default'});
+    await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
 <!-- end custom footer snippets -->
