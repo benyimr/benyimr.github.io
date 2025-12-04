@@ -69,17 +69,17 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
     <strong class="research-paper-title">Networked Inequality: The role of Changes in Network Heterogeneity and Network Size in Attitudes towards Inequality.</strong>
     (2026). <i>Social Networks</i>, 84 (January): 27-45  
     (with 
-    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Alejandro Plaza</a>,
-    <a href="https://scholar.google.com/citations?user=0QlfZOIAAAAJ&hl=es//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Guillermo Beck</a>,
-    <a href="https://www.bigsss-bremen.de/people/phd-fellows/julio-iturra-sanhueza//" class="coauthor-link" target="_blank" rel="noopener noreferrer">Julio Iturra</a>, and
-    <a href="https://scholar.google.com/citations?user=sZ7YJIsAAAAJ&hl=es" class="coauthor-link" target="_blank" rel="noopener noreferrer">Gabriel Otero</a>).
+    <a href="https://alejandroplazareveco.github.io//" class="coauthor-link" target="blank" rel="noopener noreferrer">Alejandro Plaza</a>,
+    <a href="https://scholar.google.com/citations?user=0QlfZOIAAAAJ&hl=es//" class="coauthor-link" target="blank" rel="noopener noreferrer">Guillermo Beck</a>,
+    <a href="https://www.bigsss-bremen.de/people/phd-fellows/julio-iturra-sanhueza//" class="coauthor-link" target="blank" rel="noopener noreferrer">Julio Iturra</a>, and
+    <a href="https://scholar.google.com/citations?user=sZ7YJIsAAAAJ&hl=es" class="coauthor-link" target="blank" rel="noopener noreferrer">Gabriel Otero</a>).
   </div>
 
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-paper-2" class="abstract-toggle-label">[Abstract]</label>
-    <a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link" target="_blank" rel="noopener noreferrer">[Article]</a>
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
+    <a href="https://doi.org/10.1016/j.socnet.2025.07.008" class="research-link" target="blank" rel="noopener noreferrer">[Article]</a>
+    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
