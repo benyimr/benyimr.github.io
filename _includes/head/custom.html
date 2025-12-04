@@ -18,25 +18,30 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll("a[href]").forEach(function(link) {
-    const url = link.getAttribute("href");
+    const href = link.getAttribute("href");
+    if (!href) return;
 
-    // Skip anchors, mailto, tel, and relative URLs
-    if (
-      url.startsWith("#") ||
-      url.startsWith("/") ||
-      url.startsWith("mailto:") ||
-      url.startsWith("tel:")
-    ) return;
-
-    // Build absolute URL and compare hostnames
-    const linkHost = new URL(url, window.location.href).hostname;
-    const siteHost = window.location.hostname;
-
-    // Only external links open in a new tab
-    if (linkHost !== siteHost) {
+    // --- NUEVO: Forzar que todo link EXTERNO use nueva pestaña ---
+    const absolute = new URL(href, window.location.href);
+    if (absolute.hostname !== window.location.hostname) {
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
+      return;
     }
+
+    // No tocar anchors ni mailto/tel
+    if (
+      href.startsWith("#") ||
+      href.startsWith("mailto:") ||
+      href.startsWith("tel:")
+    ) return;
+
+    // No tocar nada en la barra superior
+    if (link.closest(".masthead")) return;
+
+    // Todo link interno no-masthead en nueva pestaña (como tú querías)
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
   });
 });
 </script>
