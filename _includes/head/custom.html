@@ -1,41 +1,38 @@
-{% include base_path %}
-
-<!-- start custom head snippets -->
-
-<!-- Support for Academicons -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
-
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
-
-<!-- Automatically open EXTERNAL links in a new tab -->
+<!-- Automatically handle link targets -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll("a[href]").forEach(function(link) {
-    const href = link.getAttribute("href");
-    if (!href) return;
+  // 1) Forzar que Research + Teaching resources se abran en nueva pestaña
+  document.querySelectorAll(".research-link, .teaching-links a").forEach(function(link) {
+    if (!link.hasAttribute("target")) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
+  });
 
-    // 1) No tocar anchors ni mailto/tel
+  // 2) Opcional: abrir AUTOMÁTICAMENTE en nueva pestaña el resto de links EXTERNOS
+  document.querySelectorAll("a[href]").forEach(function(link) {
+    const url = link.getAttribute("href");
+    if (!url) return;
+
+    // Saltar anchors, mailto, tel y URLs internas relativas
     if (
-      href.startsWith("#") ||
-      href.startsWith("mailto:") ||
-      href.startsWith("tel:")
+      url.startsWith("#") ||
+      url.startsWith("/") ||
+      url.startsWith("mailto:") ||
+      url.startsWith("tel:")
     ) return;
 
-    // 2) No tocar nada del masthead (logo + menú: Research / Teaching / CV)
-    if (link.closest(".masthead")) return;
+    // No tocar enlaces que ya tengan target (por ejemplo los de arriba)
+    if (link.hasAttribute("target")) return;
 
-    // 3) Todo el resto se abre en nueva pestaña
-    link.setAttribute("target", "_blank");
-    link.setAttribute("rel", "noopener noreferrer");
+    // Sólo marcar externos (otro hostname)
+    const linkHost = new URL(url, window.location.href).hostname;
+    const siteHost = window.location.hostname;
+
+    if (linkHost !== siteHost) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
   });
 });
 </script>
-
-<!-- end custom head snippets -->
