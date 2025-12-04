@@ -387,8 +387,8 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-buttons">
     <label for="abs-chapter-3" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://www.cis.es/en/w/redes-sociales-teoria-metodos-y-aplicaciones-en-america-latina" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
-    <a href="{{ base_path }}/files/research/Multilevel_Analysis_for_the_Study_of_Egocentric_Networks__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
+    <a href="{{ base_path }}/files/other/Multilevel_Analysis_for_the_Study_of_Egocentric_Networks__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
+    <a href="https://github.com/benyimr/Multilevel_Ego_Networks" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
 
@@ -424,8 +424,8 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
   <div class="research-paper-buttons">
     <label for="abs-chapter-2" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://www.fondodeculturaeconomica.com/Ficha/9789562892025/F" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
-    <a href="{{ base_path }}/files/research/La_Centroderecha_en_el_Territorio__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
-    <a href="https://dataverse.harvard.edu/dataverse/benjamin-munoz" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
+    <a href="{{ base_path }}/files/other/La_Centroderecha_en_el_Territorio__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
+    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7T96ZQ" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
   <!-- ABSTRACT -->
@@ -456,7 +456,7 @@ Times of Change</i> (pp 191-225), Santiago: Fondo de Cultura Económica (with
   <div class="research-paper-buttons">
     <label for="abs-chapter-1" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://rileditores.com/producto/la-columna-vertebral-fracturada-revisitando-intermediarios-politicos-en-chile" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
-    <a href="{{ base_path }}/files/research/La_Localizacion_de_la_Politica__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
+    <a href="{{ base_path }}/files/other/La_Localizacion_de_la_Politica__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
     <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBVZBW" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
