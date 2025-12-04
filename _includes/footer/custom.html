@@ -16,4 +16,30 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<!-- Handle link targets for content links -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // 1) TODO lo que NO esté en el masthead (barra superior)
+  //    y no sea anchor/mailto/tel se abre en nueva pestaña.
+  document.querySelectorAll("a[href]").forEach(function(link) {
+    const href = link.getAttribute("href");
+    if (!href) return;
+
+    // Saltar anchors y mailto/tel
+    if (
+      href.startsWith("#") ||
+      href.startsWith("mailto:") ||
+      href.startsWith("tel:")
+    ) return;
+
+    // No tocar enlaces del masthead (logo + Research / Teaching / CV)
+    if (link.closest(".masthead")) return;
+
+    // El resto se abre en nueva pestaña
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+  });
+});
+</script>
+
 <!-- end custom footer snippets -->
