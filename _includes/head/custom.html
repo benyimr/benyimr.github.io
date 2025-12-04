@@ -1,38 +1,41 @@
-<!-- Automatically handle link targets -->
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<!-- Support for Academicons -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
+<meta name="theme-color" content="#ffffff"/>
+
+<!-- Abrir enlaces en nueva pestaña (salvo el menú superior) -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // 1) Forzar que Research + Teaching resources se abran en nueva pestaña
-  document.querySelectorAll(".research-link, .teaching-links a").forEach(function(link) {
-    if (!link.hasAttribute("target")) {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-    }
-  });
-
-  // 2) Opcional: abrir AUTOMÁTICAMENTE en nueva pestaña el resto de links EXTERNOS
   document.querySelectorAll("a[href]").forEach(function(link) {
-    const url = link.getAttribute("href");
-    if (!url) return;
+    const href = link.getAttribute("href");
+    if (!href) return;
 
-    // Saltar anchors, mailto, tel y URLs internas relativas
+    // No tocar anchors ni mailto/tel
     if (
-      url.startsWith("#") ||
-      url.startsWith("/") ||
-      url.startsWith("mailto:") ||
-      url.startsWith("tel:")
+      href.startsWith("#") ||
+      href.startsWith("mailto:") ||
+      href.startsWith("tel:")
     ) return;
 
-    // No tocar enlaces que ya tengan target (por ejemplo los de arriba)
-    if (link.hasAttribute("target")) return;
+    // No tocar nada en la barra superior (logo + Research / Teaching / CV)
+    if (link.closest(".masthead")) return;
 
-    // Sólo marcar externos (otro hostname)
-    const linkHost = new URL(url, window.location.href).hostname;
-    const siteHost = window.location.hostname;
-
-    if (linkHost !== siteHost) {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-    }
+    // Todo el resto en nueva pestaña
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
   });
 });
 </script>
+
+<!-- end custom head snippets -->
