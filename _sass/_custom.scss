@@ -398,3 +398,57 @@
     margin: 0 auto;
   }
 }
+
+/* ----------------------------------------------------
+   About page layout (single layout, no sidebar):
+   wider page + two columns (text left, profile right)
+---------------------------------------------------- */
+
+/* ----------------------------------------------------
+   About page layout (single layout, no sidebar):
+   wider article + two columns (text left, profile right)
+---------------------------------------------------- */
+
+/* 1) Make the About article use the full width inside #main on large screens */
+.page.about-page {
+  @include breakpoint($large) {
+    float: none;        /* remove grid float */
+    width: 100%;        /* take full width of the container */
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* 2) Two-column layout inside About: text left, profile right */
+.page__content .about-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Left column: introductory text */
+.about-layout__text {
+  flex: 1 1 60%;
+  min-width: 280px;
+}
+
+/* Right column: photo + name + buttons (author profile) */
+.about-layout__profile {
+  flex: 0 0 320px;
+  max-width: 380px;
+}
+
+/* 3) Stack columns on smaller screens for readability */
+@media (max-width: 768px) {
+  .page__content .about-layout {
+    flex-direction: column;
+  }
+
+  .about-layout__text,
+  .about-layout__profile {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
