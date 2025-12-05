@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Benjamín Muñoz"
 title_separator          : "-"
 name                     : &name "Benjamín Muñoz"
-description              : &description "PhD Candidate in Political Science"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "PhD Candidate"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://www.benjaminmunozr.com" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,8 +24,8 @@ repository               : "benyimr/benyimr.github.io"
 author:
   # Biographic information
   avatar           : "profile_01.png"
-  name             : "Benjamín Muñoz"
-  pronouns         : # example: "she/her"  
+  name             : "     Benjamín Muñoz"
+  pronouns         : # example: "she/her"
   bio              : "PhD Candidate in Political Science at MIT"
   location         :
   employer         : 

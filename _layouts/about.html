@@ -6,13 +6,12 @@ layout: default
 
 {%- comment -%}
   Inline styles specific to the About page layout.
-  This keeps the two-column layout self-contained and
-  avoids any issues with SCSS compilation/order.
+  Self-contained CSS so it does not depend on SCSS ordering.
 {%- endcomment -%}
 <style>
   .about-main {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;      /* text + profile in one row */
     gap: 2rem;
     align-items: flex-start;
 
@@ -22,33 +21,103 @@ layout: default
     padding: 0 1.5rem;
   }
 
-  /* Left column: main introductory text */
+  /* Left column: text */
   .about-main__text {
     flex: 1 1 58%;
     min-width: 320px;
-    max-width: 640px; /* avoid very long lines */
+    max-width: 640px;
   }
 
   .about-main__text p {
     text-align: justify;
   }
 
-  /* Right column: author profile (photo + links) */
+  /* Right column: profile (photo + links) — widened to 400px */
   .about-main__profile {
-    flex: 0 0 320px;
-    max-width: 320px;
+    flex: 0 0 400px;
+    max-width: 400px;
   }
 
-  /* Stack columns on smaller screens */
+  /* Center name and bio */
+  .about-main__profile .author__content,
+  .about-main__profile .author__name,
+  .about-main__profile .author__bio {
+    text-align: center !important;
+  }
+
+  /* Profile photo: full-width and taller */
+  .about-main__profile .author__avatar img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 590px !important;
+    object-fit: cover;
+  }
+
+  /* ----------------------------------------------------
+     Social buttons under the photo
+  ---------------------------------------------------- */
+
+  /* Hide Follow button */
+  .about-main__profile .author__urls-wrapper .btn {
+    display: none;
+  }
+
+  /* Row of compact icons/text */
+  .about-main__profile .author__urls {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0.40rem;          /* spacing between buttons */
+    padding: 0;
+    margin: 1rem 0 0 0;
+  }
+
+  .about-main__profile .author__urls li {
+    list-style: none;
+  }
+
+  /* Button style: rectangle, subtle, clean */
+  .about-main__profile .author__urls a {
+    display: inline-flex;
+    align-items: center;
+
+    /* ↓ tighter space between icon + text ↓ */
+    gap: -0.1rem;
+
+    font-size: 0.85rem;
+    padding: 0.35rem 0.55rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f8f8f8;
+    text-decoration: none;
+    color: var(--global-text-color);
+
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+
+  .about-main__profile .author__urls a:hover {
+    background: #e9eef3;
+    border-color: #b8c7d1;
+  }
+
+  /* ----------------------------------------------------
+     Responsive behavior
+  ---------------------------------------------------- */
   @media (max-width: 640px) {
     .about-main {
       flex-direction: column;
+      flex-wrap: nowrap;
     }
 
     .about-main__text,
     .about-main__profile {
       flex: 1 1 100%;
       max-width: 100%;
+    }
+
+    /* Allow wrapping on tiny screens */
+    .about-main__profile .author__urls {
+      flex-wrap: wrap;
     }
   }
 </style>
