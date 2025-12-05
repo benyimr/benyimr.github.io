@@ -101,7 +101,7 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Responsive behavior (mobile)
+     Responsive behavior
   ---------------------------------------------------- */
   @media (max-width: 640px) {
     .about-main {
@@ -125,8 +125,8 @@ layout: default
 
     .about-main__profile .author__avatar img {
       width: 100% !important;
-      max-width: 320px !important;  /* ajusta este número si quieres más/menos ancha en móvil */
-      height: auto !important;      /* evita la franja ultra delgada */
+      max-width: 320px !important;
+      height: auto !important;
       object-fit: cover;
       display: block;
       margin: 0 auto;
@@ -137,6 +137,11 @@ layout: default
     .about-main__profile .author__name,
     .about-main__profile .author__bio {
       text-align: center !important;
+    }
+
+    /* 🔹 Extra espacio entre bio y botones en móvil */
+    .about-main__profile .author__urls-wrapper {
+      margin-top: 0.75rem;  /* prueba 0.75; si quieres más, sube a 1rem o 1.25rem */
     }
 
     /* Botones centrados y permitiendo varias filas en móvil */
