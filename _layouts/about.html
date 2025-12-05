@@ -62,7 +62,7 @@ layout: default
     display: none;
   }
 
-  /* Row of compact icons/text */
+  /* Row of compact icons/text (desktop/tablet grande) */
   .about-main__profile .author__urls {
     display: flex;
     flex-wrap: nowrap;
@@ -139,15 +139,9 @@ layout: default
       text-align: center !important;
     }
 
-    /* 🔹 Extra espacio entre bio y botones en móvil */
+    /* 🔹 Ocultar completamente los botones en móvil */
     .about-main__profile .author__urls-wrapper {
-      margin-top: 1.25rem;  /* prueba 0.75; si quieres más, sube a 1rem o 1.25rem */
-    }
-
-    /* Botones centrados y permitiendo varias filas en móvil */
-    .about-main__profile .author__urls {
-      flex-wrap: wrap;
-      justify-content: center;
+      display: none;
     }
   }
 </style>
