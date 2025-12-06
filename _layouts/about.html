@@ -11,7 +11,7 @@ layout: default
 <style>
   .about-main {
     display: flex;
-    flex-wrap: nowrap;      /* text + profile in one row (desktop) */
+    flex-wrap: nowrap;      /* text + profile in one row */
     gap: 2rem;
     align-items: flex-start;
 
@@ -38,14 +38,14 @@ layout: default
     max-width: 400px;
   }
 
-  /* Center name and bio on desktop */
+  /* Center name and bio */
   .about-main__profile .author__content,
   .about-main__profile .author__name,
   .about-main__profile .author__bio {
     text-align: center !important;
   }
 
-  /* Profile photo: full-width and taller (desktop) */
+  /* Profile photo: full-width and taller (DESKTOP GRANDE) */
   .about-main__profile .author__avatar img {
     width: 100% !important;
     max-width: 100% !important;
@@ -54,15 +54,15 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Social buttons under the photo (DESKTOP ONLY)
+     Social buttons under the photo
   ---------------------------------------------------- */
 
-  /* Hide Follow button always */
+  /* Hide Follow button */
   .about-main__profile .author__urls-wrapper .btn {
     display: none;
   }
 
-  /* Row of compact icons/text (desktop) */
+  /* Row of compact icons/text */
   .about-main__profile .author__urls {
     display: flex;
     flex-wrap: nowrap;
@@ -81,7 +81,7 @@ layout: default
     display: inline-flex;
     align-items: center;
 
-    /* espacio muy pequeño entre icono y texto */
+    /* ↓ tighter space between icon + text ↓ */
     gap: -0.1rem;
 
     font-size: 0.85rem;
@@ -101,15 +101,27 @@ layout: default
   }
 
   /* ----------------------------------------------------
-     Responsive behavior — for WIDTH ≤ 1000px
-     Use the "mobile" layout: column, photo circular, no buttons
+     RANGO INTERMEDIO: evitar la "línea vertical"
+     (entre ~desktop grande y móvil)
   ---------------------------------------------------- */
-  @media (max-width: 1000px) {
+  @media (max-width: 1000px) and (min-width: 641px) {
+    .about-main__profile .author__avatar img {
+      /* mismo ancho, pero sin altura fija enorme */
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;       /* se adapta */
+      max-height: 500px;             /* por si acaso, límite razonable */
+      object-fit: cover;
+    }
+  }
+
+  /* ----------------------------------------------------
+     Responsive behavior (MÓVIL)
+  ---------------------------------------------------- */
+  @media (max-width: 640px) {
     .about-main {
-      flex-direction: column;   /* stack text + profile */
+      flex-direction: column;
       flex-wrap: nowrap;
-      max-width: 100%;
-      padding: 0 1rem;
     }
 
     .about-main__text,
@@ -118,12 +130,7 @@ layout: default
       max-width: 100%;
     }
 
-    /* Profile block: centered */
-    .about-main__profile {
-      margin-top: 1.5rem;
-    }
-
-    /* Avatar container centered */
+    /* Foto circular en móvil (según lo que ya tienes funcionando) */
     .about-main__profile .author__avatar {
       float: none !important;
       width: 100% !important;
@@ -131,27 +138,27 @@ layout: default
       text-align: center;
     }
 
-    /* Foto circular, tamaño moderado en móvil/tablet */
     .about-main__profile .author__avatar img {
-      width: 220px !important;
-      height: 220px !important;
-      max-width: 220px !important;
+      width: 55vw !important;
+      height: 55vw !important;
+      max-width: 260px !important;
+      max-height: 260px !important;
       border-radius: 50% !important;
       object-fit: cover;
       display: block;
       margin: 0 auto;
     }
 
-    /* Nombre y bio centrados bajo la foto */
+    /* Nombre y bio centrados bajo la foto también en móvil */
     .about-main__profile .author__content,
     .about-main__profile .author__name,
     .about-main__profile .author__bio {
       text-align: center !important;
     }
 
-    /* 🔴 Ocultar COMPLETAMENTE los botones (icons/links) en móvil/tablet */
+    /* Ocultar botones en móvil para evitar solapamiento */
     .about-main__profile .author__urls-wrapper {
-      display: none !important;
+      display: none;
     }
   }
 </style>
@@ -185,3 +192,4 @@ layout: default
     </aside>
   </div>
 </div>
+
