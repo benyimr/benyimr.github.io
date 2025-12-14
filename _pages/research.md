@@ -182,7 +182,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-wp-2" class="abstract-toggle-label">[Abstract]</label>
-    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Manuscript]</span>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5827163" class="research-link" target="_blank" rel="noopener noreferrer">[Manuscript]</a>
 <!-- <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
       <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
   </div>
@@ -214,7 +214,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <!-- BLOCK 2: BUTTONS -->
   <div class="research-paper-buttons">
     <label for="abs-wp-1" class="abstract-toggle-label">[Abstract]</label>
-    <span href="https://github.com/benyimr/Quant_IV_Slides" class="link-disabled">[Manuscript]</span>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5826923" class="research-link" target="_blank" rel="noopener noreferrer">[Manuscript]</a>
 <!-- <a href="https://www.scielo.cl/scielo.php?pid=S0718-090X2019000100075&script=sci_arttext&tlng=pt" class="research-link">[Manuscript]</a>
       <a href="https://github.com/benyimr/Quant_IV_Slides" class="research-link">[Code]</a> -->
   </div>
