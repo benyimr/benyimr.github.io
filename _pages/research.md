@@ -387,7 +387,7 @@ My dissertation centers on the <strong>Politics of Crime, Punishment, and Insecu
   <div class="research-paper-buttons">
     <label for="abs-chapter-3" class="abstract-toggle-label">[Abstract]</label>
     <a href="https://www.cis.es/en/w/redes-sociales-teoria-metodos-y-aplicaciones-en-america-latina" class="research-link" target="_blank" rel="noopener noreferrer">[Book]</a>
-    <a href="{{ base_path }}/files/other/Multilevel_Analysis_for_the_Study_of_Egocentric_Networks__Chapter.pdf" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5825042" class="research-link" target="_blank" rel="noopener noreferrer">[Preprint]</a>
     <a href="https://github.com/benyimr/Multilevel_Ego_Networks" class="research-link" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 
