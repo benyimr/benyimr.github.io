@@ -193,7 +193,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
 
   <div style="margin-top: 0.9rem;"></div>
 
-  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2020.</p>
+  <p style="margin: 0.15rem 0;"><strong>Semester:</strong> Spring 2019.</p>
   <p style="margin: 0.15rem 0;"><strong>Department:</strong> Anthropology (UG)</p>
   <p style="margin: 0.15rem 0;"><strong>University:</strong> Universidad Alberto Hurtado </p>
   <p style="margin: 0.35rem 0;"><strong>Description:</strong> Second course in the quantitative methods sequence for anthropologists. This course introduces students to inferential statistics. The material is organized into two modules: probability, and statistical inference, including point estimation, confidence intervals, and hypothesis testing. </p>
@@ -219,8 +219,6 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
 
   <div class="teaching-links" style="text-align: center; margin-top: 0.5rem;">
     <a href="{{ base_path }}/files/syllabi/syl_1873.pdf" target="_blank" rel="noopener noreferrer">[Syllabus]</a>
-    &nbsp;&nbsp;
-    <a href="{{ base_path }}/files/syllabi/syl_3149.pdf" target="_blank" rel="noopener noreferrer">[Syllabus Political Science]</a>
   </div>
 
 </details>
