@@ -229,7 +229,7 @@ Teaching is one of the most rewarding parts of my academic work. My approach emp
 
 <div class="teaching-indent">
 <details>
-  <summary><strong> Fixed Effects and Random Effects Modeling </strong></summary>
+  <summary><strong> Fixed Effects and Random Effects Modeling (COES)</strong></summary>
 
   <div style="margin-top: 0.9rem;"></div>
 
